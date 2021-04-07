@@ -1,3 +1,69 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+header {
+  background: skyblue;
+}
+
+div:nth-of-type(3) {
+  background: pink;
+}
+
+div:nth-of-type(4) {
+  background: limegreen;
+}
+
+div:nth-of-type(5) {
+  background: brown;
+}
+
+footer {
+    background: orange;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+
+}
+
+#title-div {
+    /* position: relative; */
+}
+
+
+
+/* Button */
+
+.button-class {
+    display: inline-block;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: absolute;
+    left: 50%; */
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.button-class:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}

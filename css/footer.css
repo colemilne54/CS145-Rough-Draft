@@ -1,0 +1,17 @@
+/* #icon-div {
+    background-color: orange;
+    position: absolute;
+} */
+
+i {
+    padding: 25px 0px;
+    padding-left: 10px;
+}
+
+#footer-brand {
+    /* position: absolute;
+    bottom: 2%;
+    right: 2%; */
+    float: right;
+    margin-top: 25px;
+}

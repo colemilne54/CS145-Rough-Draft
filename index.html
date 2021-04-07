@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/title.css">
         <script src="https://kit.fontawesome.com/63f21564f4.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
 
     <body>
         <header class="navbar">
-            <img id="navbar-logo" src="images/small-logo.png">
+            <img id="navbar-logo" src="images/small-logo.png" alt="navbar-logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="html/store.html">Store</a></li>
@@ -24,53 +25,62 @@
             </ul>
         </header>
 
-        <div class="">
+        <div id="title-div">
             <h1>Colorado Denim</h1>
-            <button type="button" name="button" href="hmtl/store.html">Buy Our Jeans</button>
+            <a class="button-class" href="#">Buy Our Jeans</a>
         </div>
 
-        <div class="">
-            <h3>Our Denim</h3>
-            <p>
-                lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-                sed do eiusmod tempor
-                incididunt ut labore et dolore
-                magna aliqua.
-            </p>
-            <button type="button" name="button" href="html/our-denim.html">Our Denim Page</button>
+        <div class="row">
+            <div class="column">
+                <h3>Our Denim</h3>
+                <p>
+                    lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit,
+                    sed do eiusmod tempor
+                    incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                <a class="button-class">Our Denim Page</a>
+            </div>
+
+            <div class="column">
+                <h3>Our Store</h3>
+                <p>
+                    lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit,
+                    sed do eiusmod tempor
+                    incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                <a class="button-class">Shop Now</a>
+            </div>
+
+            <div class="column">
+                <h3>Our Blog</h3>
+                <p>
+                    lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit,
+                    sed do eiusmod tempor
+                    incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                <a class="button-class">Read More</a>
+            </div>
+
         </div>
 
-        <div class="">
-            <h3>Our Store</h3>
-            <p>
-                lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-                sed do eiusmod tempor
-                incididunt ut labore et dolore
-                magna aliqua.
-            </p>
-            <button type="button" name="button" href="html/store.html">Shop Now</button>
-        </div>
 
-        <div class="">
-            <h3>Our Blog</h3>
-            <p>
-                lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-                sed do eiusmod tempor
-                incididunt ut labore et dolore
-                magna aliqua.
-            </p>
-            <button type="button" name="button">Read More</button>
-        </div>
 
         <footer>
-            <i class="fab fa-facebook-square" href="facebook.com"></i>
-            <i class="fab fa-twitter-square" href="twitter.com"></i>
-            <i class="fab fa-instagram" href="instagram.com"></i>
-            <i class="fab fa-yelp" href="yelp.com"></i>
-            <p>Colorado Denim © 2021</p>
+            <!-- id="icon-div" -->
+            <!-- <div> -->
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-yelp"></i>
+            <!-- </div> -->
+
+            <p id="footer-brand">Colorado Denim © 2021</p>
         </footer>
 
     </body>

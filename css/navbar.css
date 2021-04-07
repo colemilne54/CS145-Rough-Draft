@@ -1,0 +1,40 @@
+#navbar-logo {
+    width: 100px;
+    padding: 15px 0px 15px 15px;
+}
+
+.navbar {
+    display: block;
+}
+
+.navbar ul {
+    float: right;
+    /* display: inline-block; */
+    position: absolute;
+    list-style-type: none;
+    padding-right: 20px;
+    top: 3%;
+    right: 2%;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar li:not(:first-child){
+  border-left:2px solid #000;
+}
+
+.navbar li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+}
