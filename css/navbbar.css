@@ -1,0 +1,17 @@
+h1 {
+    font-size: 72px;
+}
+
+#navbar-logo {
+    width: 5px;
+}
+
+.navbar {
+    display: block;
+}
+
+.navbar ul {
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+}

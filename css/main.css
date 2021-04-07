@@ -1,13 +1,3 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
-.navbar {
-    display: block;
-}
-
-.navbar ul {
-    float: right;
-    display: inline-block;
-    list-style-type: none;
-}
