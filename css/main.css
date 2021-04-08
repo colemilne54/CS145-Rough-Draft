@@ -22,6 +22,19 @@ footer {
     background: orange;
 }
 
+
+
+#title-div {
+    /* position: relative; */
+}
+
+/* Content Divs */
+
+.column p {
+    width: 350px;
+    margin: 0 auto;
+}
+
 .column {
   float: left;
   width: 33.33%;
@@ -34,13 +47,15 @@ footer {
 }
 
 h3 {
-
+    font-size: 24px;
 }
 
-#title-div {
-    /* position: relative; */
-}
+/* Images */
 
+.section-pic {
+    width: 400px;
+    padding-top: 50px;
+}
 
 
 /* Button */
