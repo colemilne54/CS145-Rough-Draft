@@ -4,6 +4,17 @@
     margin-left: auto;
 }
 
+#our-denim-image1 {
+    width: 80%;
+    /* float: right; */
+}
+
+#our-denim-image2 {
+    width: 500px;
+    /* float: left; */
+    /* padding-top: 200px */
+}
+
 #why-h3 {
     padding-top: 130px;
 }
@@ -11,6 +22,10 @@
 #america-h3 {
     padding-top: 380px;
     padding-left: 50px
+}
+
+#why-p {
+
 }
 
 #america-p {
