@@ -50,3 +50,44 @@ h2 {
   display: table;
   clear: both;
 }
+
+/* #filter-forms {
+    width: 10%;
+} */
+
+/* .item-div {
+    width: 30%;
+} */
+
+{
+    box-sizing: border-box;
+}
+
+.en-column {
+    float: left;
+}
+
+.big {
+    width: 90%;
+}
+
+.small {
+    width: 10%;
+}
+
+.en-row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.item-column {
+    float: left;
+    width: 33%;
+}
+
+.item-row:after {
+content: "";
+display: table;
+clear: both;
+}
