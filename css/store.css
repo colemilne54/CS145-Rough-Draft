@@ -15,27 +15,6 @@ h2 {
     float: right;
 }
 
-/* #filter-both {
-    clear: left;
-} */
-
-/* #sort {
-    display: inline-block;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: left;
-} */
-
-/* #search-div {
-    display: block;
-    text-align: center;
-}
-
-#sort-div {
-    display: block;
-    text-align: center;
-} */
-
 #top-row {
     padding-top: 50px;
 }
@@ -50,14 +29,6 @@ h2 {
   display: table;
   clear: both;
 }
-
-/* #filter-forms {
-    width: 10%;
-} */
-
-/* .item-div {
-    width: 30%;
-} */
 
 {
     box-sizing: border-box;
