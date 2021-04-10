@@ -26,18 +26,68 @@
         </header>
 
         <div class="store-title">
-            <h1>Welcome To Our Store</h1>
+            <h1 id="store-h1">Welcome To Our Store</h1>
             <h2>Start Browsing By Using Filters To Narrow Down Your Search</h2>
         </div>
 
-        <div class="">
-            <!-- Filters -->
-            <!-- sort by -->
-            <!-- search -->
+        <div class="row-store" id="top-row">
+            <div class="column-store">
+                <p id="filters">Filters</p>
+            </div>
+
+            <div class="column-store" id="sort-div">
+                <form id="sort">
+                    <label> Sort By </label>
+                    <select>
+                    <option value = "Recommended"> Recommended
+                    </option>
+                    <option value = "Price Low-High"> Price Low-High
+                    </option>
+                    <option value = "Price High-Low"> Price High-Low
+                    </select>
+                </form>
+            </div>
+
+            <div column="column-store" id="search-div">
+                <form id="search">
+                     <input type="search" id="query" name="q" placeholder="Search...">
+                     <button>Search</button>
+                </form>
+            </div>
         </div>
 
         <div class="">
-            <!-- filters -->
+            <form>
+                <p>Article Type:</p>
+                <input type="checkbox" name="jackets">
+                <label for="jackets">Jackets</label><br>
+                <input type="checkbox" name="jeans">
+                <label for="jeans">Jeans</label><br>
+                <input type="checkbox" name="axes">
+                <label for="axes">Accessories</label><br>
+            </form>
+
+            <form>
+                <p>Gender:</p>
+                <input type="checkbox" name="mens">
+                <label for="mens">Mens</label><br>
+                <input type="checkbox" name="womens">
+                <label for="womens">Womens</label><br>
+                <input type="checkbox" name="children">
+                <label for="children">Children</label><br>
+            </form>
+
+            <form>
+                <p>Size:</p>
+                <input type="checkbox" name="Small">
+                <label for="Small">Small</label><br>
+                <input type="checkbox" name="Medium">
+                <label for="Medium">Medium</label><br>
+                <input type="checkbox" name="Large">
+                <label for="Large">Large</label><br>
+            </form>
+
+
         </div>
 
         <div class="">

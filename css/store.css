@@ -1,1 +1,52 @@
-#store-title
+#store-h1 {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+#filters {
+    float: left;
+    clear: right;
+}
+
+#search {
+    float: right;
+}
+
+/* #filter-both {
+    clear: left;
+} */
+
+/* #sort {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+} */
+
+/* #search-div {
+    display: block;
+    text-align: center;
+}
+
+#sort-div {
+    display: block;
+    text-align: center;
+} */
+
+#top-row {
+    padding-top: 50px;
+}
+
+.column-store {
+  float: left;
+  width: 33.33%;
+}
+
+.row-store:after {
+  content: "";
+  display: table;
+  clear: both;
+}
