@@ -84,6 +84,7 @@ clear: both;
 .item-column {
     float: left;
     width: 33%;
+    text-align: center;
 }
 
 .item-row:after {
